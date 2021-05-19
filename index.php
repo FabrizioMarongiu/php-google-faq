@@ -24,6 +24,18 @@
                 </a>
             </div>
         </div>
+        <ul>
+            <li><a href="#">Introduzione</a>
+            </li>
+            <li><a href="#">Norme sulla privacy</a>
+            </li>
+            <li><a href="#">Termini di servizio</a>
+            </li>
+            <li><a href="#">Tecnologie</a>
+            </li>
+            <li><a href="#">Domande frequenti</a>
+            </li>
+        </ul>
     </header>
 
 <main>

@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    border-bottom: 1px solid grey;
+}
 
 .top-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid grey;
 }
 
 .header-left{
@@ -33,9 +35,30 @@ i{
 a{
     text-decoration: none;
     color: #000;
-
 }
 
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 0 10px;
+}
+li:last-child{
+    border-bottom: 1px solid dodgerblue;
+}
+li:last-child a{
+    color: dodgerblue;
+
+}
+li:hover{
+    border-bottom: 1px solid dodgerblue;
+}
 .main{
     padding: 80px 100px;
+}
+.blue{
+    color: dodgerblue;
+    cursor:pointer;
 }
